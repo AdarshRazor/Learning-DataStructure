@@ -42,11 +42,9 @@ def insertNodeAtPosition(head, data, position):
     curr_node=head
     for i in range(position-1):
         curr_node=curr_node.next
-        i+=1
     
-    temp=curr_node.next
+    new_node.next=curr_node.next
     curr_node.next=new_node
-    new_node.next=temp
     return new_node
 
 
