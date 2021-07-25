@@ -6,4 +6,4 @@ Try solving problems. In case you are stuck check out the hints provided for the
 
 Lets Start !! 💡
 
-1. Easy Problems to Get Started. [Goto](./1.Easy-Problems-to-Get-Started/README.md)
+1. Easy Problems to Get Started. [Goto](./1.Easy_Problems_to_Get_Started/)
