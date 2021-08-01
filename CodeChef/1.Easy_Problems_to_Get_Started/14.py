@@ -7,4 +7,4 @@ for i in range(N):
     
     print()
 
-# have to solve
+# have to solve later
