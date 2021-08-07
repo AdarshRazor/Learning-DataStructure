@@ -3,7 +3,6 @@ N=int(input())
 for i in range(N):
     wor=input()
     wl=len(wor)
-    #num=wl//2
 
     if wl%2==0:
         a,b=wor[:wl//2],wor[wl//2:]
