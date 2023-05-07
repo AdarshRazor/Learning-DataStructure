@@ -4,7 +4,7 @@ Breadth-first search is a way of exploring a graph or tree by visiting all the n
 
 It starts at the root node (or any arbitrary node), visits all its neighbors (the nodes directly connected to it), and then moves on to the neighbors' neighbors, and so on, until all nodes have been visited.
 
-![image](https://user-images.githubusercontent.com/33658792/236675902-3e833b37-e93b-4596-8c18-98a35f8dfc3f.png)
+![image](https://user-images.githubusercontent.com/33658792/236693272-4439d949-fcb6-466e-8730-e946091bd903.png)
 
 ## Implementation
 
