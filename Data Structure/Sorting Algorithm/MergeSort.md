@@ -4,6 +4,8 @@ Merge sort is an efficient general-purpose, and comparison-based sorting algorit
 
 It divides the input array into two halves, calls itself for the two halves repeatedly until it breaks down to smallest part. then merges the two sorted halves.
 
+![image](https://user-images.githubusercontent.com/33658792/236674293-bcf28b2e-fdc1-48a6-bf55-9c348b2ab7f9.png)
+
 ## Implementation
 
 1. It starts by dividing the array into two halves.
