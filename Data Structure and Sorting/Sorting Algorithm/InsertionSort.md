@@ -29,6 +29,8 @@ We can take the example of the playing card deck as the player set the card deck
 
 Here is the [link](https://www.youtube.com/watch?v=OGzPmgsI-pQ) of the video from GeeksforGeeks which might clear you idea.
 
+## Implementation (Code)
+
 ```python
 def insertion_sort(arr):
     for i in range(1, len(arr)):

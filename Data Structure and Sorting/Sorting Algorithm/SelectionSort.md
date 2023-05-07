@@ -29,6 +29,8 @@ It divides the input array into two halves, calls itself for the two halves repe
 
 Here is the [link](https://www.youtube.com/watch?v=JSceec-wEyw) of the video from GeeksforGeeks which might clear you idea.
 
+## Implementation (Code)
+
 ```python
 def selection_sort(arr):
     for i in range(len(arr)):

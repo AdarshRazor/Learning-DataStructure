@@ -29,6 +29,8 @@ Sometimes its refer to as sinking sort, where the bubble which is lighter comes 
 
 Here is the [link](https://www.youtube.com/watch?v=nmhjrI-aW5o) of the video from GeeksforGeeks which might clear you idea.
 
+## Implementation (Code)
+
 ```python
 def bubble_sort(arr):
     for i in range(len(arr)):

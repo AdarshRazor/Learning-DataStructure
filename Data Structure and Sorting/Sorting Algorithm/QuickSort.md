@@ -35,6 +35,8 @@ It arranges the sub-arrays according to whether they are less than or greater th
 
 Here is the [link](https://www.youtube.com/watch?v=PgBzjlCcFvc) of the video from GeeksforGeeks which might clear you idea.
 
+## Implementation (Code)
+
 ```python
 def quick_sort(arr):
     if len(arr) <= 1:
