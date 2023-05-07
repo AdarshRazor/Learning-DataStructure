@@ -6,7 +6,6 @@ It arranges the sub-arrays according to whether they are less than or greater th
 
 ![image](https://user-images.githubusercontent.com/33658792/236675902-3e833b37-e93b-4596-8c18-98a35f8dfc3f.png)
 
-
 ## Implementation
 
 1. It starts by choosing the first element as the pivot.
