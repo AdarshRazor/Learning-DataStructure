@@ -4,6 +4,8 @@ Quick sort is a divide-and-conquer sorting algorithm. It works by selecting a "p
 
 It arranges the sub-arrays according to whether they are less than or greater than the pivot. The sub-arrays are then sorted recursively using the same process. 
 
+![image](https://user-images.githubusercontent.com/33658792/236675836-d4e5dc68-56d6-4daf-801e-ec8c3050c5f8.png)
+
 ## Implementation
 
 1. It starts by choosing the first element as the pivot.
