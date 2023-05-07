@@ -4,6 +4,8 @@ It is an sorting algorithm. Where the element is compared to its predecessor and
 
 We can take the example of the playing card deck as the player set the card deck from higher to lower value. After picking up the card player compares it from the top and keep going down to its predecessor and placed when the position is coorect.
 
+![image](https://user-images.githubusercontent.com/33658792/236674244-6b462795-c6a8-4483-bc2d-828be427aa24.png)
+
 ## Implementation
 
 1. It starts by comapring adjecent element.
