@@ -8,10 +8,13 @@ It starts at the root node (or any arbitrary node), visits all its neighbors (th
 
 ## Implementation
 
-1. It starts by choosing the first element as the pivot.
-2. Partition the remaining elements into two sub-arrays. 
-3. Elements in the left sub-arrays should be lesser and the right sub-arrays are greater than the pivot.
-4. Repeat the same process you are done. :fire:
+1. Choose a starting node to begin the search.
+2. Create an empty set to keep track of visited nodes.
+3. Start with the given/starting node.
+4. While the queue is not empty, dequeue a node from the front of the queue.
+5. If the vertex has not been visited yet, mark it as visited and print it.
+6. Add all unvisited neighbors of the current node to the back of the queue.
+7. Repeat the process until the queue is empty and you are done. :fire:
 
 ## Space and time complexity
 
@@ -22,7 +25,11 @@ It starts at the root node (or any arbitrary node), visits all its neighbors (th
 
 ## When to use
 
-- This algorithm is useful for finding the shortest path between two nodes in an unweighted graph or for traversing a tree level-by-level.
+- It is useful for finding the shortest path between two nodes in an unweighted graph.
+
+- You want to find the smallest number of steps to reach a solution in a search problem.
+
+- You want to traverse a tree or graph level by level.
 
 Here is the [link](https://www.youtube.com/watch?v=0u78hx-66Xk) of the video from GeeksforGeeks which might clear you idea.
 
@@ -35,10 +42,11 @@ from collections import deque
 graph = {
     'A': ['B', 'C'],
     'B': ['D', 'E'],
-    'C': ['F'],
+    'C': ['F', 'G'],
     'D': [],
-    'E': ['F'],
-    'F': []
+    'E': [],
+    'F': [],
+    'G': []
 }
 
 def bfs(graph, start):
@@ -63,4 +71,4 @@ def bfs(graph, start):
 bfs(graph, 'A')
 ```
 
-Output: `A B C D E F`
+Output: `A B C D E F G`
