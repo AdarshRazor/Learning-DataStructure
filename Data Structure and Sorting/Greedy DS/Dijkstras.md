@@ -4,7 +4,7 @@ Dijkstra's algorithm finds the shortest path between two nodes in a graph.
 
 It is a weighted graph algorithm, meaning that each edge in the graph has a weight associated with it.
 
-![image](https://user-images.githubusercontent.com/33658792/236693272-4439d949-fcb6-466e-8730-e946091bd903.png)
+![image](https://user-images.githubusercontent.com/33658792/236767041-b2859948-063d-47bf-a23e-6604dd5361d6.png)
 
 ## Implementation
 
